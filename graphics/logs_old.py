@@ -1,3 +1,8 @@
+"""
+Filename: logs.py
+Purpose: Logging functions for the Hydrogen Rocket UI
+"""
+
 import logging
 import os
 import re
@@ -216,4 +221,5 @@ def get_logger():
         logger.addHandler(date_handler)
 
     return logger
+
 
