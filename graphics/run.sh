@@ -3,7 +3,7 @@
 # Define paths
 PROJECT_DIR="/home/mada/Hydrogen_Rocket_py"
 VENV_DIR="$PROJECT_DIR/Hydrogen_Rocket_venv"
-MAIN_SCRIPT="$PROJECT_DIR/main.py"
+MAIN_SCRIPT="$PROJECT_DIR/main_with_sound.py"
 
 # Function to check if a Python package is installed in the virtual environment
 check_and_install() {
