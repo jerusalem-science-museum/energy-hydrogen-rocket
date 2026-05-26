@@ -1,0 +1,23 @@
+# --- GUI & Display ---
+# Used for creating interactive visitor touchscreens or visual readouts
+PyQt5>=5.15.0
+# Alternative lighter GUI option often used on Raspberry Pi
+# tkinter (usually built-in, but dependencies can be listed if needed)
+
+# --- Hardware Interface & GPIO ---
+# For reading sensor inputs, button clicks, or firing relays (igniting the hydrogen)
+RPi.GPIO>=0.7.0; sys_platform == 'linux'
+gpiozero>=1.6.2; sys_platform == 'linux'
+
+# --- Serial Communication ---
+# For talking to Arduino microcontrollers, PLC, or external relay boards over USB
+pyserial>=3.5
+
+# --- Game Loop & Multimedia ---
+# Often used for playing sound effects (rocket launch!), video loops, or simple 2D graphics
+pygame>=2.5.0
+
+# --- Core Utilities ---
+# For timing constraints and configuration files
+PyYAML>=6.0
+python-dotenv>=1.0.0
