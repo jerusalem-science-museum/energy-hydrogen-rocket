@@ -35,7 +35,7 @@
 //#define LANG_BUTTON_IO A1
 
 
-const float AUTO_EXPLOSION_THRESHOLD = 80; // absolute max charge for auto explosion
+const float AUTO_EXPLOSION_THRESHOLD = 70; // absolute max charge for auto explosion
 
 const float MIN_CHARGE = 0;// Coulomb, minimum charge enable ignition  
 const float MAX_CHARGE = 40;// Coulomb, maximum charge have to ignite
