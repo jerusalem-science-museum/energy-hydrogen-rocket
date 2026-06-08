@@ -7,11 +7,11 @@ Total hebrew language: 46
 Total arabic language: 51
 Total language changes: 140
 
-Average Rocket ignited per day: 111.00
-Average english language per day: 43.00
-Average hebrew language per day: 46.00
-Average arabic language per day: 51.00
-Average total language changes per day: 140.00
+Average Rocket ignited per hour: 4.62
+Average english language per hour: 1.79
+Average hebrew language per hour: 1.92
+Average arabic language per hour: 2.12
+Average total language changes per hour: 5.83
 
 Good runs: 111 / 251 (44.22%)
 
