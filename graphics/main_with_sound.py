@@ -113,15 +113,15 @@ def main():
 
                 if music_playing and not pygame.mixer.music.get_busy():  # Vérifier si la musique est terminée
                     if write_line(ser, "ignite", logger):  # Utilisation de la fonction write_line sécurisée
-                        logger.info("Sent 'ignite' command to Arduino.")
-                        print("Sent 'ignite' command to Arduino.")
+                        logger.info(f"Sent 'ignite' command to Arduino. Charge: {charge:.2f} Coul")
+                        print(f"Sent 'ignite' command to Arduino. Charge: {charge:.2f} Coul")
                     else:
                         logger.info("Failed to send 'ignite' command. Serial port might be closed or unavailable.")
                     music_playing = False  # Réinitialiser l'état de la musique
 
                 if previous_sound_ready and not sound_ready:
-                    logger.info("The rocket has ignited")
-                    print("The rocket has ignited")
+                    logger.info(f"The rocket has ignited. Charge: {charge:.2f} Coul")
+                    print(f"The rocket has ignited. Charge: {charge:.2f} Coul")
 
                 previous_sound_ready = sound_ready  # Met à jour l'état précédent
 
